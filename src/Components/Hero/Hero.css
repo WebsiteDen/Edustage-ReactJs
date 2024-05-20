@@ -1,0 +1,36 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/herobanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero h4{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(0,35,71);
+}
+.hero h1{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 25px;
+    color: rgb(0,35,71);
+}
+.herobutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn.btn1{
+    background: rgb(0,35,71);
+    color: #FDC632;
+    margin-right: 10px;
+}
+.btn.btn2{
+    color: rgb(0,35,71);
+    background: #FDC632;
+}

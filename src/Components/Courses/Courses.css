@@ -1,0 +1,145 @@
+.courses{
+ padding-top: 50px;
+ padding-bottom: 60px;
+}
+.courses h2{
+  text-align: center;
+  color: rgb(0, 36, 71);
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+.courses p{
+   font-style: italic;
+   text-align: center;
+}
+.courses-card{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses-card img:hover{
+  transform: scale(1.04);
+}
+.courses-card img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.c-card{
+    width: 32%;
+    background: #E9E6EA;
+    position: relative;
+}
+.c-card:hover{
+    background: white;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.6);
+}
+.c-card .price{
+   padding: 6% 5%;
+   background: #FDC632;
+   border-radius: 35px;
+   font-size: 20px;
+   font-weight: 500;
+   position: absolute;
+   right: 10px;
+   bottom: 230px;
+}
+.c-card .price:hover{
+    background: rgb(0, 36, 71);
+    color: #FDC632;
+}
+.btn.course-btn{
+    background: rgb(0, 36, 71);
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 2px;
+}
+.user-col h3{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.user-col h3:hover{
+    color: #FDC632;
+}
+.user-col p{
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: start;
+}
+.user-div{
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-div img{
+    width: 45px;
+    border-radius: 30px;
+}
+.user-div i{
+    margin-right: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1055px) {
+    .c-card .price{
+        bottom: 245px;
+    }
+    .user-col h3,.user-col p{
+        margin-left: 15px;
+    }
+    .user-div{
+        padding: 15px 16px;
+    }
+    .user-div i{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .c-card .price{
+        bottom: 305px;
+    }
+    .user-div{
+        flex-direction: column;
+    }
+    .user-div i{
+        font-size: 25px;
+        width: 40px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .c-card .price{
+        bottom: 330px;
+    }   
+}
+@media screen and (max-width: 567px) {
+    .c-card .price{
+        bottom: 210px;
+        right: 20px;
+    }   
+    .courses-card{
+    flex-direction: column;
+    gap: 20px;
+    }
+    .c-card{
+        width: 100%;
+    }
+    .user-div{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 465px) {
+    .c-card .price{
+        bottom: 230px;
+        right: 20px;
+    }   
+}

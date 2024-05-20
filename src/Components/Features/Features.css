@@ -1,0 +1,49 @@
+.features{
+    padding-top: 80px;
+}
+.features h3{
+    text-align: center;
+    color: rgb(0, 36, 71);
+    font-size: 32px;
+}
+.features p{
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+}
+.features-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+.f-card{
+    flex-basis: 32%;
+    width: 100%;
+    background: #E9E6EA;
+    padding: 30px 20px;
+    border: 1px solid #E9E6EA;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.f-card span i{
+    font-size: 30px;
+    color: rgb(0, 36, 71);
+    padding-bottom: 10px;
+}
+.features-card h4{
+    font-size: 20px;
+    color: rgb(0, 36, 71);
+}
+.features-card p{
+    font-style: normal;
+    text-align: start;
+}
+@media screen and (max-width: 570px) {
+    .features-card{
+    flex-direction: column;
+     gap: 15px;
+    }
+}

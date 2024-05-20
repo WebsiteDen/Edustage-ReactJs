@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.about-left{
+   width: 55%;
+}
+.about-left img{
+    width: 100%;
+    height: 100%;
+}
+.about-right{
+    width: 45%;
+    box-shadow: 2px 2px 4px 1px rgba(104, 98, 98, 0.6);
+    padding: 40px 80px 60px 50px;
+}
+.about-right h2{
+    font-size: 28px;
+    text-align: start;
+    padding-bottom: 20px;
+}
+.about-right p{
+    padding-bottom: 30px;
+}
+.btn.btn-about{
+    background: #FDC632;
+    color: rgb(0, 36, 71);
+}
+
+@media screen and (max-width: 800px) {
+   .about{
+    flex-direction: column;
+   }
+   .about-left{
+    width: 100%;
+ }
+ .about-right{
+     width: 100%;
+     padding: 30px 20px 30px 20px;
+ }
+}
+
